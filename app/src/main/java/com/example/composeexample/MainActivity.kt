@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.composeexample.moneyCalculator.MoneyCalculatorScreen
+import com.example.composeexample.tipCalculator.TipCalculatorScreen
 import com.example.composeexample.ui.theme.ComposeExampleTheme
 
 class MainActivity : ComponentActivity() {
@@ -18,7 +19,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             ComposeExampleTheme {
-                MoneyCalculatorScreen()
+                TipCalculatorScreen()
             }
         }
     }
